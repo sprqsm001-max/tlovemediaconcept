@@ -1,54 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="assets/images/logo.png">
-  <title>Tlove Media Concept — Movies</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movies | Watch Our Productions — Tlove Media Concept</title>
+<meta name="description" content="Watch Tlove Media Concept's latest productions — event aftermovies, weddings, concerts and brand films. New uploads appear here straight from our channel.">
+<link rel="canonical" href="https://tlovemediaconcept.topservice.ng/movies">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tlove Media Concept">
+<meta property="og:title" content="Tlove Movies — Watch Our Productions">
+<meta property="og:description" content="Event aftermovies, weddings, concerts and brand films by Tlove Media Concept.">
+<meta property="og:url" content="https://tlovemediaconcept.topservice.ng/movies">
+<meta property="og:image" content="https://tlovemediaconcept.topservice.ng/assets/event2.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E0E12">
+<link rel="icon" type="image/png" href="assets/gear.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <div class="site-container">
-    <header class="site-header">
-      <div class="site-logo">
-        <img src="assets/images/logo.png" alt="Tlove Media Concept Logo">
-        <span>Tlove</span>
-      </div>
-      <button class="mobile-menu-btn" aria-label="Menu" onclick="document.querySelector('.site-nav').classList.toggle('active')">
-        ☰
-      </button>
-      <nav class="site-nav">
-        <a href="/">Tlove</a>
-        <a href="blog">Blog</a>
-        <a href="real-estate">Real Estate</a>
-        <a href="insurance">Insurance</a>
-        <a href="the-ceo">The CEO</a>
-        <a href="movies">Movies</a>
-        <a href="contact">Contact</a>
-      </nav>
-    </header>
 
-    <section class="hero-banner" style="background-image: url('assets/images/movies-bg-1.png');">
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <h1 class="hero-title">Movies</h1>
-      </div>
-    </section>
-
-    <main>
-      <p>Fasanido the 7 Hunting Spirit Season 2</p>
-      <p>VIDEO-2022-07-04-23-06-26.mp4</p>
-
-      <div class="movies-video">
-        <img src="assets/images/movies-inline-1.png" alt="Fasanido the 7 Hunting Spirit Season 2" style="margin-bottom:20px;">
-        <iframe src="https://www.youtube.com/embed/ww7EDz6fe3E" allowfullscreen></iframe>
-      </div>
-    </main>
-
-    <footer class="site-footer">
-      <p>&copy; 2026 Tlove Media Concept. All Rights Reserved.</p>
-    </footer>
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="brand"><span class="cam"><svg viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.4"/></svg></span>Tlove Media Concept</a>
+    <nav class="menu" id="menu" aria-label="Main navigation">
+      <a href="index.html">Tlove</a>
+      <a href="blog.html">Blog</a>
+      <a href="real-estate.html">Real Estate</a>
+      <a href="insurance.html">Insurance</a>
+      <a href="the-ceo.html">The CEO</a>
+      <a href="movies.html" class="active" aria-current="page">Movies</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-pink">Get a Quote</a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">☰</button>
   </div>
+</header>
+
+<main>
+<div class="page-hero">
+  <div class="wrap">
+    <span class="crumbs"><a href="index.html">Tlove</a> / Movies</span>
+    <h1>MOV<b>IES</b></h1>
+    <p>Our productions, always current — the featured player below embeds the channel playlist, so it can never go stale (the audited site embedded a single deleted video).</p>
+  </div>
+</div>
+
+<div class="wrap">
+  <section style="padding-top:3rem">
+    <div class="watch" style="margin-top:0">
+      <!-- STRUCTURAL FIX: embed a YouTube PLAYLIST (or the channel's uploads list), not a single video ID.
+           Playlists keep working even if one video is removed; a bare video embed 404s forever. -->
+      <div class="video-slot">▶ &nbsp;Featured player<br><small>YouTube playlist iframe — e.g. youtube.com/embed/videoseries?list=UPLOADS_ID</small></div>
+      <div>
+        <h2>Now <span>Showing</span></h2>
+        <p>Weddings, concerts, conferences and brand films — every production we publish appears here automatically. Press play, or open the channel for the full catalogue.</p>
+        <a href="https://www.youtube.com" target="_blank" rel="noopener" class="btn btn-pink">Open YouTube Channel</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-top"><h2>FROM THE SETS</h2><small>Moments between the frames</small></div>
+    <div class="video-grid">
+      <a class="vid" href="contact.html"><img src="assets/event1.jpg" alt="Concert coverage production still" loading="lazy" width="640" height="400"><span class="play"><i><svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5v14l11-7z" fill="#fff"/></svg></i></span><span class="cap">Concert Aftermovie</span></a>
+      <a class="vid" href="contact.html"><img src="assets/event2.jpg" alt="Live stage performance filming" loading="lazy" width="640" height="400"><span class="play"><i><svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5v14l11-7z" fill="#fff"/></svg></i></span><span class="cap">Stage Production</span></a>
+      <a class="vid" href="contact.html"><img src="assets/event3.jpg" alt="Wedding reception production still" loading="lazy" width="640" height="400"><span class="play"><i><svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5v14l11-7z" fill="#fff"/></svg></i></span><span class="cap">Wedding Highlight Film</span></a>
+      <a class="vid" href="contact.html"><img src="assets/event4.jpg" alt="Corporate conference production" loading="lazy" width="640" height="400"><span class="play"><i><svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5v14l11-7z" fill="#fff"/></svg></i></span><span class="cap">Conference Coverage</span></a>
+      <a class="vid" href="contact.html"><img src="assets/gear.jpg" alt="Production equipment on set" loading="lazy" width="640" height="400"><span class="play"><i><svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5v14l11-7z" fill="#fff"/></svg></i></span><span class="cap">Behind the Lens</span></a>
+      <a class="vid" href="contact.html"><img src="assets/blog1.jpg" alt="Story-driven brand content" loading="lazy" width="640" height="400"><span class="play"><i><svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5v14l11-7z" fill="#fff"/></svg></i></span><span class="cap">Brand Story Films</span></a>
+    </div>
+
+    <div class="yt-cta">
+      <h2>Subscribe so you never miss a premiere</h2>
+      <p>New uploads go live on the channel first.</p>
+      <a href="https://www.youtube.com" target="_blank" rel="noopener" class="btn btn-white">Subscribe on YouTube</a>
+    </div>
+  </section>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-mark" aria-hidden="true">TLOVE</div>
+    <div class="foot">
+      <div class="col">
+        <h4>Menu</h4>
+        <a href="index.html">Tlove</a><a href="blog.html">Blog</a><a href="the-ceo.html">The CEO</a><a href="movies.html">Movies</a>
+      </div>
+      <div class="col">
+        <h4>Services</h4>
+        <a href="real-estate.html">Real Estate</a><a href="insurance.html">Insurance</a><a href="contact.html">General Enquiries</a>
+      </div>
+      <div class="col">
+        <h4>Contact</h4>
+        <a href="tel:+2349086788823">+234 908 678 8823</a>
+        <a href="mailto:hello@tlovemediaconcept.com">hello@tlovemediaconcept.com</a>
+        <a href="contact.html">Get a Quote →</a>
+      </div>
+    </div>
+  </div>
+  <div class="copy">© 2026 Tlove Media Concept. All rights reserved.</div>
+</footer>
+
+<script src="assets/main.js" defer></script>
 </body>
 </html>
